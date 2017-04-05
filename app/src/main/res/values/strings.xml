@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tweeter</string>
+    <string name="login_label">Connect to Twitter</string>
+    <string name="compose_a_tweet">Compose a tweet</string>
+    <string name="tweet">Tweet</string>
+
+</resources>

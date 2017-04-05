@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miCompose"
+        android:icon="@drawable/feather"
+        android:onClick="composeTweet"
+        app:showAsAction="ifRoom"
+        android:title="Compose tweet">
+    </item>
+</menu>

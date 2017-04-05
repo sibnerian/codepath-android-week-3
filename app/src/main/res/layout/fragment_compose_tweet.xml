@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:minWidth="400dp"
+    android:id="@+id/edit_filters"
+    android:padding="16dp"
+    >
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minLines="8"
+        android:maxLines="16"
+        android:inputType="textMultiLine"
+        android:ems="14"
+        android:layout_marginBottom="20dp"
+        android:gravity="top|left"
+        android:hint="@string/compose_a_tweet"
+        android:id="@+id/composeTweet" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tweet"
+        android:id="@+id/btnTweet"
+        android:background="@color/buttonPrimary"
+        android:layout_below="@id/composeTweet"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="140"
+        android:textSize="14sp"
+        android:id="@+id/charsRemaining"
+        android:textColor="#88777777"
+        android:layout_toLeftOf="@id/btnTweet"
+        android:layout_alignTop="@id/btnTweet"
+        android:layout_marginRight="16dp"
+    />
+
+</RelativeLayout>
